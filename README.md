@@ -1,24 +1,16 @@
-# 📊 GitHub Metrics Dashboard
+# 📊 GitHub Metrics
 
 ![Metrics](https://github.com/tsuyoshi-otake/tsuyoshi-otake/blob/main/github-metrics.svg)
 
-## 📈 Features
+## 📈 基本情報
 
-The metrics dashboard includes:
-- Annual contribution calendar
-- Programming language statistics
-- Activity habits and patterns
-- Achievement tracking
-- Notable contributions
-- Recent activity summary
+- プロフィール情報
+- アクティビティ概要
+- リポジトリ統計
+- 使用言語統計
 
-## 🔄 Update Schedule
+## 🔄 更新タイミング
 
-The metrics are automatically updated:
-- Daily at midnight (JST)
-- On push to main branch
-- Manual workflow dispatch
-
-## 🛠 Implementation
-
-This dashboard is generated using [lowlighter/metrics](https://github.com/lowlighter/metrics), a powerful tool for creating beautiful GitHub metrics visualizations.
+- 毎日0時（JST）
+- mainブランチへのプッシュ時
+- 手動実行時
