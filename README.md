@@ -1,6 +1,6 @@
 # 📊 GitHub Metrics Dashboard
 
-This repository contains a GitHub Action that generates detailed metrics and statistics from my GitHub activity.
+![Metrics](https://github.com/tsuyoshi-otake/tsuyoshi-otake/blob/main/github-metrics.svg)
 
 ## 📈 Features
 
@@ -22,5 +22,3 @@ The metrics are automatically updated:
 ## 🛠 Implementation
 
 This dashboard is generated using [lowlighter/metrics](https://github.com/lowlighter/metrics), a powerful tool for creating beautiful GitHub metrics visualizations.
-
-> **Note**: To see the metrics, please visit my [GitHub Profile](https://github.com/tsuyoshi-otake).
