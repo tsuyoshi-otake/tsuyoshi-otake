@@ -22,7 +22,9 @@ jobs:
           config_timezone: Asia/Tokyo
           config_display: large
           config_padding: 10%
-          filename: github-metrics.svg
+          output_action: commit
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          output_condition: always
           
           # 基本的なメトリクス
           base: header, activity, community, repositories, metadata
@@ -62,11 +64,3 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_timestamps: yes
           plugin_activity_visibility: all
-      
-      - name: Commit metrics
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-metrics.svg
-          git commit -m "Update metrics" || exit 0
-          git push
